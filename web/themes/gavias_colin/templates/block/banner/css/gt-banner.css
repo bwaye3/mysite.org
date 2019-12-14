@@ -1,0 +1,343 @@
+/* CSS Style Sheet for Banner */
+/* Set up the container */
+.flex-container {
+  height: 100vh;
+  display: flex;
+}
+
+.flex-container .no-image {
+  height: auto;
+}
+/* Flex body content to bottom */
+.flex-bottom {
+  align-self: flex-end;
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.banner-no-image {
+  display: flex;
+  align-items: center;
+}
+/**/
+
+/* Banner with Image */
+/* Banner with Image */
+/* Banner with Image */
+/* Black */
+.banner-image.black {
+  background: rgba(0,0,0, 0.80) !important;
+}
+
+.banner-image.black p,
+.banner-image.black ul,
+.banner-image.black li {
+  color: var(--gt-white) !important;
+}
+
+.banner-image.black h2,
+.banner-image.black h3,
+.banner-image.black h4,
+.banner-image.black h5,
+.banner-image.black h6 {
+  color: var(--gt-gold) !important;
+}
+
+/* White */
+.banner-image.white {
+  color: var(--gt-white) !important;
+}
+
+.banner-image.white p,
+.banner-image.white ul,
+.banner-image.white li {
+  color: var(--gt-black) !important;
+}
+
+.banner-image.white h2,
+.banner-image.white h3,
+.banner-image.white h4,
+.banner-image.white h5,
+.banner-image.white h6 {
+  color: var(--gt-md-gold) !important;
+}
+
+/* Blue */
+.banner-image.blue {
+  background: var(--gt-navy) !important; /* NEED RGBA */
+}
+
+.banner-image.blue,
+.banner-image.blue p,
+.banner-image.blue ul,
+.banner-image.blue li,
+.banner-image.blue h2,
+.banner-image.blue h3,
+.banner-image.blue h4,
+.banner-image.blue h5,
+.banner-image.blue h6 {
+  color: var(--gt-white) !important;
+}
+
+/* Gold */
+.banner-image.gold {
+  background: var(--gt-gold) !important; /* NEED RGBA */
+}
+
+.banner-image.gold p,
+.banner-image.gold ul,
+.banner-image.gold li,
+.banner-image.gold h2,
+.banner-image.gold h3,
+.banner-image.gold h4,
+.banner-image.gold h5,
+.banner-image.gold h6 {
+  color: var(--gt-black) !important;
+}
+
+/* Warm-gray */
+.banner-image.warm-gray {
+  background: var(--gt-warm-gray) !important;
+}
+
+.banner-image.warm-gray p,
+.banner-image.warm-gray ul,
+.banner-image.warm-gray li,
+.banner-image.warm-gray h2,
+.banner-image.warm-gray h3,
+.banner-image.warm-gray h4,
+.banner-image.warm-gray h5,
+.banner-image.warm-gray h6 {
+  color: var(--gt-black) !important;
+}
+
+/* Banner No Image */
+/* Banner No Image */
+/* Banner No Image */
+
+/* Black */
+.banner-no-image.black {
+  background: var(--gt-black) !important;
+}
+.banner-no-image.black,
+.banner-no-image.black p,
+.banner-no-image.black ul,
+.banner-no-image.black li {
+  color: var(--gt-white) !important;
+}
+
+.banner-no-image.black h2,
+.banner-no-image.black h3,
+.banner-no-image.black h4,
+.banner-no-image.black h5,
+.banner-no-image.black h6 {
+  color: var(--gt-tech-gold) !important;
+}
+
+/* White */
+.banner-no-image.white {
+  background: var(--gt-white) !important;
+}
+.banner-no-image.white,
+.banner-no-image.white p,
+.banner-no-image.white ul,
+.banner-no-image.white li {
+	color: var(--gt-black);
+}
+
+.banner-no-image.white h2,
+.banner-no-image.white h3,
+.banner-no-image.white h4,
+.banner-no-image.white h5,
+.banner-no-image.white h6 {
+  color: var(--gt-md-gold) !important;
+}
+
+/* Blue */
+.banner-no-image.blue {
+  background: var(--gt-navy) !important;
+}
+.banner-no-image.blue,
+.banner-no-image.blue p,
+.banner-no-image.blue ul,
+.banner-no-image.blue li,
+.banner-no-image.blue h2,
+.banner-no-image.blue h3,
+.banner-no-image.blue h4,
+.banner-no-image.blue h5,
+.banner-no-image.blue h6 {
+  color: var(--gt-white) !important;
+}
+
+/* Gold */
+.banner-no-image.gold {
+  background: var(--gt-gold) !important;
+}
+
+.banner-no-image.gold p,
+.banner-no-image.gold ul,
+.banner-no-image.gold li,
+.banner-no-image.gold h2,
+.banner-no-image.gold h3,
+.banner-no-image.gold h4,
+.banner-no-image.gold h5,
+.banner-no-image.gold h6 {
+  color: var(--gt-black) !important;
+}
+
+/* Warm-gray */
+.banner-no-image.warm.grey {
+  background: var(--gt-warm-gray) !important;
+}
+
+.banner-no-image.warm.grey p,
+.banner-no-image.warm.grey ul,
+.banner-no-image.warm.grey li {
+	  color: var(--gt-black) !important;
+}
+
+.banner-no-image.warm.grey h2,
+.banner-no-image.warm.grey h3,
+.banner-no-image.warm.grey h4,
+.banner-no-image.warm.grey h5,
+.banner-no-image.warm.grey h6 {
+	  color: var(--gt-black) !important;
+}
+
+/* Buttons */
+/* Buttons */
+/* Buttons */
+
+/* Gold Button */
+.main-container .btn.btn-style-gold,
+.main-container .btn.btn-style-gold a,
+.main-container .btn.btn-style-gold a:link,
+.main-container .btn.btn-style-gold a:visited,
+.main-container a.btn.btn-style-gold,
+.main-container a.btn.btn-style-gold:link,
+.main-container a.btn.btn-style-gold:visited {
+  background: var(--gt-gold);
+  color: var(--gt-black);
+}
+
+.main-container .btn.btn-style-gold:hover,
+.main-container a.btn.btn-style-gold:hover,
+.main-container a.btn.btn-style-gold:link:hover,
+.main-container a.btn.btn-style-gold:visited:hover,
+.main-container .btn.btn-style-gold a:hover,
+.main-container .btn.btn-style-gold a:link:hover,
+.main-container .btn.btn-style-gold a:visited:hover {
+  background: var(--gt-tech-light-gold);
+  color: var(--gt-black);
+}
+
+/* Black */
+.main-container .btn.btn-style-black,
+.main-container .btn.btn-style-black a,
+.main-container .btn.btn-style-black a:link,
+.main-container .btn.btn-style-black a:visited,
+.main-container a.btn.btn-style-black,
+.main-container a.btn.btn-style-black:link,
+.main-container a.btn.btn-style-black:visited {
+  text-decoration: none;
+  background: var(--gt-dark-gray);
+  border-color: transparent;
+  color: var(--gt-white);
+}
+
+.main-container .btn.btn-style-black:hover,
+.main-container a.btn.btn-style-black:hover,
+.main-container a.btn.btn-style-black:link:hover,
+.main-container a.btn.btn-style-black:visited:hover,
+.main-container .btn.btn-style-black a:hover,
+.main-container .btn.btn-style-black a:link:hover,
+.main-container .btn.btn-style-black a:visited:hover {
+  background: var(--gt-md-grey);
+  text-decoration: none;
+  color: var(--gt-white);
+}
+
+/* Blue */
+.main-container .btn.btn-style-blue,
+.main-container .btn.btn-style-blue a,
+.main-container .btn.btn-style-blue a:link,
+.main-container .btn.btn-style-blue a:visited,
+.main-container a.btn.btn-style-blue,
+.main-container a.btn.btn-style-blue:link,
+.main-container a.btn.btn-style-blue:visited  {
+  background: var(--gt-navy);
+  color: var(--gt-white);
+}
+
+.main-container .btn.btn-style-blue:hover,
+.main-container a.btn.btn-style-blue:hover,
+.main-container a.btn.btn-style-blue:link:hover,
+.main-container a.btn.btn-style-blue:visited:hover,
+.main-container .btn.btn-style-blue a:hover,
+.main-container .btn.btn-style-blue a:link:hover,
+.main-container .btn.btn-style-blue a:visited:hover {
+	background: var(--gt-blue);
+  color: var(--gt-white);
+}
+
+/* Warm Gray */
+.main-container .btn.btn-style-warm-gray,
+.main-container .btn.btn-style-warm-gray a,
+.main-container .btn.btn-style-warm-gray a:link,
+.main-container .btn.btn-style-warm-gray a:visited,
+.main-container a.btn.btn-style-warm-gray,
+.main-container a.btn.btn-style-warm-gray:link,
+.main-container a.btn.btn-style-warm-gray:visited  {
+  background: var(--gt-warm-gray);
+  color: var(--gt-black);
+}
+
+.main-container .btn.btn-style-warm-gray:hover,
+.main-container a.btn.btn-style-warm-gray:hover,
+.main-container a.btn.btn-style-warm-gray:link:hover,
+.main-container a.btn.btn-style-warm-gray:visited:hover,
+.main-container .btn.btn-style-warm-gray a:hover,
+.main-container .btn.btn-style-warm-gray a:link:hover,
+.main-container .btn.btn-style-warm-gray a:visited:hover {
+  background: var(--gt-warm-gray-medium);
+  color: var(--gt-black);
+}
+
+/* White */
+.main-container .btn.btn-style-white,
+.main-container .btn.btn-style-white a,
+.main-container .btn.btn-style-white a:link,
+.main-container .btn.btn-style-white a:visited,
+.main-container a.btn.btn-style-white,
+.main-container a.btn.btn-style-white:link,
+.main-container a.btn.btn-style-white:visited {
+  background: var(--gt-white);
+  color: var(--gt-black);
+}
+
+.main-container .btn.btn-style-white:hover,
+.main-container a.btn.btn-style-white:hover,
+.main-container a.btn.btn-style-white:link:hover,
+.main-container a.btn.btn-style-white:visited:hover,
+.main-container .btn.btn-style-white a:hover,
+.main-container .btn.btn-style-white a:link:hover,
+.main-container .btn.btn-style-white a:visited:hover {
+  background: var(--gt-superlight-gray);
+  color: var(--gt-black);
+}
+
+/* Angle */
+.angle {
+  -webkit-clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%)
+}
+
+@media (max-width: 576px) {
+  .angle {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

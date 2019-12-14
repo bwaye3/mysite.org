@@ -1,0 +1,8 @@
+/* GT Title */
+.heading-title {
+    border-top: 10px solid var(--gt-warm-gray-medium);
+}
+
+.gt-sub-heading {
+  color: var(--gt-md-grey);
+}

@@ -1,0 +1,35 @@
+/* Spacer CSS */
+#spacer {
+  margin: 1rem 0;
+}
+
+#spacer.small {
+  padding: 10px;
+}
+
+#spacer.medium {
+  padding: 30px;
+}
+
+#spacer.large {
+  padding: 50px;
+}
+
+#spacer.xlarge {
+  padding: 100px;
+}
+
+.spacer-title {
+  display: none;
+}
+
+.logged-in .spacer-title {
+  color: var(--gt-black);
+  font-size: 100%;
+  font-weight: 700;
+  display: block;
+}
+
+.logged-in #spacer {
+  background: var(--gt-pimile-light);
+}

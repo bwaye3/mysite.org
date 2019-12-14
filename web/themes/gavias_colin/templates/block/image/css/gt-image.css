@@ -1,0 +1,11 @@
+/* GT Image CSS */
+#gt-image-wrapper img {
+  width: 100% !important;
+}
+
+.cutline,
+.cutline p {
+  font-size: .9rem;
+  line-height: 1.1;
+  color: var(--gt-dark-gray);
+}

@@ -1,0 +1,28 @@
+{# Preprocess #}
+{% set image_url = file_url(content.field_image.0['#item'].entity.uri.value) %}
+{% set image_alt_text = (content.field_image['#items'].alt) %}
+{% set title = (content.field_title) %}
+{% set body = (content.field_body) %}
+
+{# Content #}
+<div class="col-md-6 col-lg-4">
+  <div class="card border-0 transform-on-hover">
+    <a class="lightbox" href="{{ image_url }}">
+      <img src="{{ image_url }}" alt="{{ image_alt_text }}" class="card-img-top">
+    </a>
+    <div class="card-body">
+      <h6>
+        <a href="#">
+          {% if title is not empty %}
+          {{ title }}
+          {% endif %}
+        </a>
+      </h6>
+      <p class="text-muted card-text">
+        {% if body is not empty %}
+        {{ body }}
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>

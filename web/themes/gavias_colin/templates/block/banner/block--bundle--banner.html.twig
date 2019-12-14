@@ -1,0 +1,66 @@
+{# GT Banner #}
+
+{# Attach the library #}
+{{ attach_library('curie/banner') }}
+
+{# Preprocess #}
+{% set body = (content.body) %}
+{% set color = 'btn btn-style-' ~ color_button %}
+{% set image = (content.field_image.0['#item'].entity.uri.value) %}
+{% set image_background = file_url(content.field_image.0['#item'].entity.uri.value) %}
+{% set link_url = (content.field_link.0['#url']) %}
+{% set link_text = (content.field_link.0['#title']) %}
+
+{# Content #}
+<div{{ attributes }}>
+  {# Content with Image #}
+  {% if image %}
+    <div class="banner"
+         style="background-image: url({{ image_background }}); background-size: cover; background-position: center;">
+      <div class="container">
+        <div class="flex-container">
+          <div class="flex-bottom angle col-12 mb-3 banner-image {{ color_background }}">
+            <div class="col-md-7 mx-1 my-4">
+              {# Title #}
+              {{ title_prefix }}
+              {% if label %}
+                <h2 class="display-4">{{ label }}</h2>
+              {% endif %}
+              {{ title_suffix }}
+              {# Body #}
+              {% if body %}
+                {{ body }}
+              {% endif %}
+              {# Link #}
+              {% if link_url %}
+                <a href="{{ link_url }}" class="{{ color }}">{{ link_text }}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {# Content without Image #}
+  {% else %}
+    <div class="banner-no-image {{ color_background }} py-5">
+      <div class="container mt-5">
+        <div class="col-10">
+          {# Title #}
+          {{ title_prefix }}
+          {% if label %}
+            <h2 class="display-4">{{ label }}</h2>
+          {% endif %}
+          {{ title_suffix }}
+          {# Body #}
+          {% if body %}
+            {{ body }}
+          {% endif %}
+          {# Link #}
+          {% if link_url %}
+            <a href="{{ link_url }}" class="{{ color }}">{{ link_text }}</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</div>{# End Attribtes #}
