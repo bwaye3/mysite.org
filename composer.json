@@ -35,7 +35,8 @@
         "drupal/token": "^1.5",
         "drupal/twitter_block": "^2.1",
         "drupal/views_infinite_scroll": "^1.6",
-        "drupal/webform": "^5.6"
+        "drupal/webform": "^5.6",
+        "drush/drush": "^10.1"
     },
     "require-dev": {
     },
